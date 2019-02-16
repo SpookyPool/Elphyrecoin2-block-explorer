@@ -1,5 +1,5 @@
 # Elphyrecoin2-Blockchain-Explorer
-Block explorer for Elphyrecoin2oin CryptoNote based cryptocurrency.
+Block explorer for Elphyrecoin2 CryptoNote based cryptocurrency.
 
 #### Installation
 
