@@ -1,11 +1,11 @@
-# TurtleCoin-Blockchain-Explorer
-Block explorer for TurtleCoin CryptoNote based cryptocurrency.
+# Elphyrecoin2-Blockchain-Explorer
+Block explorer for Elphyrecoin2oin CryptoNote based cryptocurrency.
 
 #### Installation
 
-1) It takes data from daemon turtlecoind. It should be accessible from the Internet. Run turtlecoind with open port as follows:
+1) It takes data from daemon Elphyrecoind. It should be accessible from the Internet. Run Elphyrecoind with open port as follows:
 ```bash
-./TurtleCoind --enable-cors="*" --enable-blockexplorer --rpc-bind-ip=0.0.0.0 --rpc-bind-port=11898
+./Elphyrecoind --enable-cors="*" --enable-blockexplorer --rpc-bind-ip=0.0.0.0 --rpc-bind-port=45501
 ```
 2) Just upload to your website and change 'api' variable in config.js to point to your daemon.
 
