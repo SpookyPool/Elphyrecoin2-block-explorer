@@ -55,7 +55,8 @@
                 <thead>
                     <tr>
                         <!-- <th width="30%"><i class="fa fa-clock-o"></i> Date &amp; time</th> Add this back when mempool json adds a-->
-                        <th width="10%"><i class="fa fa-money"></i> Amount</th>
+			<th width="30%"><i class="fa fa-clock-o"></i> Date &amp; time</th>
+			<th width="10%"><i class="fa fa-money"></i> Amount</th>
                         <th width="10%"><i class="fa fa-tag"></i> Fee</th>
                         <th width="10%"><i class="fa fa-archive"></i> Size</th>
                         <th width="40%"><i class="fa fa-paw"></i> Hash</th>
@@ -456,7 +457,8 @@
                         var row = document.createElement('tr');
                         var timestamp = Date().now; // this is not yet part of the json that gets returned in f_transactions_pool_json, leave for now
                         var columns =
-                            /*'<td>' + formatDate(timestamp) + ' (<span class="mtx-ago"></span>)' + '</td>' +*/
+			    /* next line to delete if wrong  */
+			    '<td>' + formatDate(timestamp) + ' (<span class="mtx-ago"></span>)' + '</td>' +
                             '<td>' + getReadableCoins(amount, 4, true) + '</td>' +
                             '<td>' + getReadableCoins(fee, 4, true) + '</td>' +
                             '<td>' + localizeNumber(size) + '</td>' +
